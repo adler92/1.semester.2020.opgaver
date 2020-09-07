@@ -12,8 +12,8 @@ public class HelloWorld {
         Scanner sc = new Scanner(System.in);
         System.out.println("Skriv noget!");
         String str = sc.nextLine();
-        System.out.println(str);
-        System.out.println("Smart ikke?");
+        //System.out.println(str);
+        System.out.println("Du har skrevet: " + str + "\nSmart ikke?");
 
     }
 }
